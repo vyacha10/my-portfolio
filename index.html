@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-разработчик</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +14,7 @@
     
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar container">
         <img src="img/logo.svg.svg" alt="logo">
         <nav class="navigation">
          <ul class="nav-list">
@@ -24,5 +25,91 @@
          </ul>
         </nav>
     </div>
+    <!-- navbar -->
+
+    <header class="header container">
+        <img src="img/face.png.png" alt="Дорошенко Вячеслав" class="header-photo">
+        <!-- /.header-photo -->
+        <div class="header-text">
+            <strong class="header-strong">Привет!</strong>
+            <h1 class="header-heading"> <span class="header-primary">Я фронтенд-разработчик и веб-дизайнер</span> <br>
+                 Меня зовут Дорошенко Вячеслав и я делаю <br>
+                  сайты для людей и компаний</h1>
+                  <div class="header-links">
+                     <ul class="social-list">
+                         <li class="social-item"><a href="" class="social-link"><img src="Icons/Social.svg" alt="linkedin" class="social-logo"></a></li>
+                         <li class="social-item"><a href="" class="social-link"><img src="Icons/Social-1.svg" alt="twitter" class="social-logo"></a></li>
+                         <li class="social-item"><a href="" class="social-link"><img src="Icons/Social-2.svg" alt="github" class="social-logo"></a></li>
+                         <li class="social-item"><a href="" class="social-link"><img src="Icons/Social-3.svg" alt="stackoferflow" class="social-logo"></a></li>
+                         <li class="social-item"><a href="" class="social-link"><img src="Icons/Social-4.svg" alt="youtube" class="social-logo"></a></li>
+                     </ul>
+                     <a href="#" class="cv-download" download>
+                         <img src="icons/Icon.png" alt="dawnload" class="cv-icon">
+                         <span class="cv-text">Скачать резюме</span>
+                     </a>
+                  </div>
+                  <!-- /.header-links -->
+        </div>
+        <!-- /.header-text -->
+    </header>
+    <!-- /.header -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="section-heading">Последние проекты</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/image 2.svg" alt="Мобильное приложение" class="card-image">
+                    <div class="card-text-wrapper">
+                        <h3 class="card-title">Мобильное приложение</h3>
+                        <ul class="tags">
+                            <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                            <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                            <li class="tags-item"><a href="#" class="tag">javaScript</a></li>
+                            <li class="tags-item"><a href="#" class="tag">Git</a></li>
+                            <li class="tags-item"><a href="#" class="tag">Vitejs</a></li>
+                        </ul>
+                        <p class="card-text">
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="card-buttons">
+                            <a href="#" class="card-button"><img src="Icons/code.png" alt="code icon" class="card-button-icon"><span
+                                    class="card button-text">Код</span></a>
+                            <a href="#" class="card-button"><img src="Icons/chek.png" alt="chek icon" class="card-button-icon"><span
+                                    class="card button-text">Демо</span></a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- /.card-text-wrapper  -->
+                <!-- /.card -->
+            
+            <!-- /.cards -->
+            <div class="cards">
+                <div class="card">
+                    <img src="img/image 1.svg" alt="Одностраничный промо-сайт" class="card-image">
+                    <div class="card-text-wrapper">
+                        <h3 class="card-title">Одностраничный промо-сайт</h3>
+                        <ul class="tags">
+                            <li class="tags-item"><a href="#" class="tag">HTML</a></li>
+                            <li class="tags-item"><a href="#" class="tag">CSS</a></li>
+                        </ul>
+                        <p class="card-text">
+                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                        <div class="card-buttons">
+                            <a href="#" class="card-button"><img src="Icons/code.png" alt="code icon" class="card-button-icon"><span
+                                    class="card button-text">Код</span></a>
+                            <a href="#" class="card-button"><img src="Icons/chek.png" alt="chek icon" class="card-button-icon"><span
+                                    class="card button-text">Демо</span></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card-text-wrapper
+                /.card -->
+            </div>
+            <!-- /.cards -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.portfolio -->
 </body>
 </html>
